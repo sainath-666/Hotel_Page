@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Haven Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/logo.png" alt="Luxury Haven Hotel Logo" class="logo">
+            <h1 class="hotel-name">Luxury Haven Hotel</h1>
+        </div>
+      </header>
+    
+      <nav>
+        <ul class="nav-bar">
+            <li><a href="#about">About</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="about-section">
+        <div class="about-heading-container">
+            <h2 class="about-heading">About Us</h2>
+        </div>
+        <div class="about-content">
+            <p>
+                At Luxury Haven Hotel, we believe in providing an experience of elegance, comfort, and class.
+                Our hotel is known for its world-class amenities, breathtaking views, and exceptional hospitality.
+                Whether you're here for leisure or business, our aim is to ensure that your stay is nothing less than extraordinary.
+            </p>
+            <p>
+                Relax in our luxurious rooms, enjoy gourmet dining in our on-site restaurants, and rejuvenate at our state-of-the-art spa and wellness center.
+                At Luxury Haven Hotel, we redefine luxury to create memories that last a lifetime.
+            </p>
+        </div>
+    </section>
+
+    <section id="rooms" class="rooms-section">
+        <h2>Rooms</h2>
+        <div class="rooms-container">
+            <div class="room">
+                <h3>Deluxe Room</h3>
+                <p>Price: ₹1200/night</p>
+                <button onclick="bookRoom('Deluxe Room', 1200)">Book Now</button>
+            </div>
+            <div class="room">
+                <h3>Suite</h3>
+                <p>Price: ₹2000/night</p>
+                <button onclick="bookRoom('Suite', 2000)">Book Now</button>
+            </div>
+            <div class="room">
+                <h3>Presidential Suite</h3>
+                <p>Price: ₹5000/night</p>
+                <button onclick="bookRoom('Presidential Suite', 5000)">Book Now</button>
+            </div>
+            <div class="room">
+                <h3>King Suite</h3>
+                <p>Price: ₹4000/night</p>
+                <button onclick="bookRoom('King Suite', 4000)">Book Now</button>
+            </div>
+            <div class="room">
+                <h3>Honeymoon Suite</h3>
+                <p>Price: ₹3500/night</p>
+                <button onclick="bookRoom('Honeymoon Suite', 3500)">Book Now</button>
+            </div>
+            <div class="room">
+                <h3>Family Room</h3>
+                <p>Price: ₹2200/night</p>
+                <button onclick="bookRoom('Family Room', 2200)">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-item">24/7 Room Service</div>
+            <div class="service-item">Free Wi-Fi</div>
+            <div class="service-item">Swimming Pool</div>
+            <div class="service-item">Spa & Wellness</div>
+            <div class="service-item">Gym Facilities</div>
+            <div class="service-item">Airport Shuttle</div>
+            <div class="service-item">On-Site Restaurant</div>
+            <div class="service-item">Conference Room</div>
+            <div class="service-item">Kids' Play Area</div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <h2 >Gallery</h2>
+        <div class="gallery-grid">
+            <img src="img/gallery_1.jpg" alt="Gallery Image 1">
+            <img src="/img/gallery_2.jpg" alt="Gallery Image 2">
+            <img src="/img/gallery_3.jpg" alt="Gallery Image 3">
+            <img src="/img/gallery_4.jpg" alt="Gallery Image 4">
+            <img src="/img/gallery_5.jpg" alt="Gallery Image 5">
+            <img src="/img/gallery_6.jpg" alt="Gallery Image 6">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="booking-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="example='Sai'" >
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="example@email.com">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required placeholder="Hello"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Luxury Haven Hotel. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
