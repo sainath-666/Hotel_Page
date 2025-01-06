@@ -96,7 +96,7 @@ header {
 }
 
 .rooms-section {
-  background-image: src="img/bg_2.jpg";
+  background-image: url('img/bg_1.jpg');
   background-size: cover;
   background-position: center;
   padding-left: 2rem;
