@@ -33,3 +33,28 @@ A **portfolio card** is a visually appealing UI component that summarizes person
 1. Clone this repository to your local machine.  
    ```bash  
    git clone https://github.com/sainath-666/Hotel-Website.git  
+2. Open the `index.html` file in your preferred browser or visit the live demo link below.
+
+---
+
+## Live Demo
+
+Check out the project live on GitHub Pages: [Hotel Site](https://sainath-666.github.io/Hotel-Website/)
+
+## Future Enhancements
+
+- Add hover effects and animations for interactivity.
+- Integrate with JavaScript for dynamic data rendering.
+- Enhance with media queries for better responsiveness.
+
+---
+
+## Acknowledgements
+
+This task is a part of the **Virtunexa Internship Program**.
+
+## Author
+
+**Sai**  
+GitHub: [sainath-666](https://github.com/sainath-666)  
+LinkedIn: [Sai's LinkedIn](https://www.linkedin.com/in/sainath666)
