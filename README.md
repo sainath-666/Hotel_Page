@@ -1,10 +1,35 @@
-# Hotel booking Webpage
-This is the basic project in Web Development.
+# Portfolio Card Project  
 
-### Check the site [Website](https://sainath-666.github.io/Hotel-Website/)
-## Checkist
-1. Set up the webpage structure using HTML5.  
-2. Add CSS for styling and responsiveness.  
-3. Implement JavaScript for interactivity.  
-4. Test the webpage on different screen sizes.  
-5. Submit the completed task for review.  
+**Task 1** of the **Virtunexa Front-End Developer Internship**  
+
+This project involves creating a **portfolio card** using only **HTML** and **CSS**. The purpose of this task is to enhance my skills in front-end web development by focusing on the fundamental building blocks of web design.  
+
+---
+
+## Project Overview  
+
+A **portfolio card** is a visually appealing UI component that summarizes personal or professional information at a glance. It is commonly used in portfolio websites to showcase individual profiles.  
+
+---
+
+## Features  
+
+- Fully responsive design  
+- Clean and minimal layout  
+- Includes personal details like name, title, and contact links  
+- Styled with only **CSS** (no external frameworks or libraries)  
+
+---
+
+## Tools and Technologies  
+
+- **HTML**: For structuring the content of the portfolio card.  
+- **CSS**: For designing and styling the card.  
+
+---
+
+## How to Run  
+
+1. Clone this repository to your local machine.  
+   ```bash  
+   git clone https://github.com/sainath-666/Hotel-Website.git  
