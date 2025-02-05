@@ -1,14 +1,14 @@
-# Portfolio Card Project  
+# Hotel Project  
 
 **Task 1** of the **Virtunexa Front-End Developer Internship**  
 
-This project involves creating a **portfolio card** using only **HTML** and **CSS**. The purpose of this task is to enhance my skills in front-end web development by focusing on the fundamental building blocks of web design.  
+This project involves creating a **Hotel site** using only **HTML** and **CSS**. The purpose of this task is to enhance my skills in front-end web development by focusing on the fundamental building blocks of web design.  
 
 ---
 
 ## Project Overview  
 
-A **portfolio card** is a visually appealing UI component that summarizes personal or professional information at a glance. It is commonly used in portfolio websites to showcase individual profiles.  
+A **Hotel Site** is a visually appealing UI component that summarizes personal or professional information at a glance. It is commonly used in portfolio websites to showcase individual profiles.  
 
 ---
 
@@ -57,4 +57,4 @@ This task is a part of the **Virtunexa Internship Program**.
 
 **Sai**  
 GitHub: [sainath-666](https://github.com/sainath-666)  
-LinkedIn: [Sai's LinkedIn](https://www.linkedin.com/in/sainath666)
+LinkedIn: [sainath666](https://www.linkedin.com/in/sainath666)
