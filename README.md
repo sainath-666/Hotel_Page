@@ -62,6 +62,7 @@ The website is fully responsive and optimized for:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sainath666)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sainath-666)
 
+---
 <div align="center">
   <p>Made with ❤️ by Sainathreddy</p>
 </div>
