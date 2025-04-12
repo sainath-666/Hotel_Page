@@ -6,7 +6,7 @@
 
 ---
 
-## [View Live Demo](https://sainath-666.github.io/Hotel_Website/)
+## [View Live Demo](https://sainath-666.github.io/Hotel_Page/)
 
 ![Luxury Haven Hotel Preview](Preview.png)
 
