@@ -4,6 +4,8 @@
 
 ### A modern, responsive hotel website built with HTML, CSS, and JavaScript
 
+---
+
 ## [View Live Demo](https://sainath-666.github.io/Hotel_Website/)
 
 ![Luxury Haven Hotel Preview](Preview.png)
