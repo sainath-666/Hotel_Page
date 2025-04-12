@@ -1,14 +1,21 @@
+/* Global Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: #333;
+  line-height: 1.6;
+  overflow-x: hidden;
 }
 
 header {
   background-color: #e8914a;
   padding: 1rem;
   text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 .logo-container {
   display: flex;
@@ -25,6 +32,14 @@ header {
   color: black;
 }
 
+nav {
+  background-color: #264653;
+  position: sticky;
+  top: 73px;
+  z-index: 999;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-evenly;
@@ -32,6 +47,7 @@ header {
   background-color: #264653;
   margin: 0;
   padding: 0.5rem 0;
+  flex-wrap: wrap;
 }
 .nav-bar a {
   text-decoration: none;
@@ -113,7 +129,10 @@ header {
 .rooms-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .room {
   background-color: rgba(255, 255, 255, 0.7);
@@ -155,12 +174,12 @@ header {
   margin-bottom: 2rem;
 }
 .services-grid {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
   justify-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .service-item {
   background-color: #2a9d8f;
@@ -184,9 +203,12 @@ header {
 }
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
   margin-top: 2rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .gallery-grid img {
   width: 100%;
@@ -195,7 +217,7 @@ header {
 }
 
 #contact {
-  padding: 2rem 2rem;
+  padding: 4rem 2rem;
   background-color: #f4a261;
   text-align: center;
   color: black;
@@ -203,6 +225,10 @@ header {
 form {
   max-width: 500px;
   margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 label {
   display: block;
@@ -230,6 +256,113 @@ button:hover {
 footer {
   background-color: #264653;
   color: white;
-  padding: 1rem;
+  padding: 2rem 1rem;
   text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #e8914a;
+}
+
+.made-by {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 1024px) {
+  .room {
+    width: 250px;
+  }
+  
+  .about-content {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    position: static;
+  }
+  
+  header {
+    position: static;
+  }
+  
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+  
+  .nav-bar li {
+    margin: 0.5rem 0;
+  }
+  
+  .room {
+    width: 100%;
+    max-width: 350px;
+    margin: 1rem 0;
+  }
+  
+  .services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .about-heading {
+    font-size: 2rem;
+  }
+  
+  .rooms-section h2, .services-section h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo-container {
+    flex-direction: column;
+  }
+  
+  .service-item {
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  form {
+    padding: 1rem;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+  }
+  
+  .room {
+    padding: 1rem;
+  }
+  
+  .gallery-grid {
+    gap: 0.5rem;
+  }
+  
+  .rooms-section, .about-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }

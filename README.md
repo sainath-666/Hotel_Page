@@ -1,60 +1,65 @@
-# Hotel Project  
+<div align="center">
 
-**Task 1** of the **Virtunexa Front-End Developer Internship**  
+# 🏨 Luxury Haven Hotel
 
-This project involves creating a **Hotel site** using only **HTML** and **CSS**. The purpose of this task is to enhance my skills in front-end web development by focusing on the fundamental building blocks of web design.  
+### A modern, responsive hotel website built with HTML, CSS, and JavaScript
 
----
+[View Live Demo](https://sainath-666.github.io/Hotel-Website/) | [Features](#features) | [Installation](#installation) | [Technologies](#technologies) | [Contact](#contact)
 
-## Project Overview  
+![Luxury Haven Hotel Preview](Preview.png)
 
-A **Hotel Site** is a visually appealing UI component that summarizes personal or professional information at a glance. It is commonly used in portfolio websites to showcase individual profiles.  
+</div>
 
----
+## ✨ Features
 
-## Features  
+- **Fully Responsive Design** - Looks great on all devices from mobile to desktop
+- **Modern UI/UX** - Clean and elegant user interface with smooth animations
+- **Room Booking System** - Interactive room selection and booking functionality
+- **Service Showcase** - Highlights the hotel's premium amenities and services
+- **Image Gallery** - Displays beautiful hotel images in a responsive grid layout
+- **Contact Form** - Easy-to-use contact form for customer inquiries
 
-- Fully responsive design  
-- Clean and minimal layout  
-- Includes personal details like name, title, and contact links  
-- Styled with only **CSS** (no external frameworks or libraries)  
+## 🚀 Installation
 
----
+```bash
+# Clone the repository
+git clone https://github.com/sainath-666/Hotel-Website.git
 
-## Tools and Technologies  
+# Navigate to the project directory
+cd Hotel-Website
 
-- **HTML**: For structuring the content of the portfolio card.  
-- **CSS**: For designing and styling the card.  
+# Open index.html in your browser
+```
 
----
+## 💻 Technologies
 
-## How to Run  
+- **HTML5** - For structuring the content
+- **CSS3** - For styling with responsive design principles
+- **JavaScript** - For interactive elements and smooth scrolling
+- **Font Awesome** - For beautiful icons
+- **Google Fonts** - For typography
 
-1. Clone this repository to your local machine.  
-   ```bash  
-   git clone https://github.com/sainath-666/Hotel-Website.git  
-2. Open the `index.html` file in your preferred browser or visit the live demo link below.
+## 📱 Responsive Design
 
----
+The website is fully responsive and optimized for:
+- Mobile devices
+- Tablets
+- Laptops
+- Desktop screens
 
-## Live Demo
+## 🔮 Future Enhancements
 
-Check out the project live on GitHub Pages: [Hotel Site](https://sainath-666.github.io/Hotel-Website/)
+- Implement a full booking and reservation system
+- Add user authentication
+- Integrate with a backend for dynamic content
+- Add room availability calendar
+- Implement customer reviews section
 
-## Future Enhancements
+## 📞 Contact
 
-- Add hover effects and animations for interactivity.
-- Integrate with JavaScript for dynamic data rendering.
-- Enhance with media queries for better responsiveness.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sainath666)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sainath-666)
 
----
-
-## Acknowledgements
-
-This task is a part of the **Virtunexa Internship Program**.
-
-## Author
-
-**Sai**  
-GitHub: [sainath-666](https://github.com/sainath-666)  
-LinkedIn: [sainath666](https://www.linkedin.com/in/sainath666)
+<div align="center">
+  <p>Made with ❤️ by Sainathreddy</p>
+</div>
